@@ -85,7 +85,9 @@
 - Use the system font instead of Chirp.
 - Use Twemoji like the web app and old Twitter.
 - Force shared-element transitions when opening images.
-- Enable a horizontal carousel for multi-image posts.
+- Enable or disable a horizontal carousel for multi-image posts.
+- Choose a predictive back style.
+- Enable larger avatars in the timeline.
 
 ### Navigation & layout
 
@@ -115,18 +117,21 @@
 
 ### Posts, sharing & media
 
-- Download videos and GIFs from the media long-press menu or fullscreen viewer; the highest available quality is selected automatically.
+- Download videos and GIFs from the media long-press menu or fullscreen viewer, with customizable filename templates.
 - Remove the “Ask Grok” and “Hide” items from the text selection menu.
 - Add system Share, Translate, Define, and Process Text actions to the text selection menu, each configurable as shown directly, collapsed, or hidden.
 - Replace share link domains with `twitter.com`, `fixupx.com`, `fxtwitter.com`, `xfixup.com`, or a custom domain.
 - Hide the Grok button on post cards.
 - Hide the Grok item in the image long-press menu.
 - Hide the Grok button in the post detail toolbar.
-- Independently manage the `Reply`, `Repost`, `Like`, `Dislike`, `Views`, `Bookmark`, and `Share` action buttons below timeline posts, the main post on the detail screen, and replies on the detail screen.
+- Independently manage the `Reply`, `Repost`, `Like`, `Dislike`, `Views`, `Bookmark`, and `Share` action buttons below timeline posts, the main post on the detail screen, other users' replies, and your own replies.
+- Skip age-verification overlays on media.
+- Enable faster video playback by long-pressing.
+- Preview poll results.
 
 ### Other features
 
-- Browse and override Boolean Feature Switches collected from the currently supported X version.
+- Browse and override Boolean Feature Switches collected from the currently supported X version, or add custom keys.
 - Back up and restore settings.
 
 ## Where does the “Re” come in?
