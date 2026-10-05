@@ -71,12 +71,14 @@
 
 ### Appearance & UI
 
-- Use system dynamic colors for the app theme, with optional Soft Accent and Material semantic color modes.
+- Use a Material 3 dynamic palette with system colors or a custom seed, with Soft Accent and Material semantic color modes.
+- Replace X's default brand blue with a custom color when the dynamic palette is disabled.
 - Make the standard Premium blue check follow the primary or tertiary theme color.
 - Configure separate splash screen color combinations for light and dark mode.
 - Hide the compose FAB.
 - Replace the circular compose FAB with a Material 3 rounded rectangle and choose from different Material color schemes.
 - Choose between X's default in-app floating notification, the old wide solid-color UI, or the newer compact UI with a blurred background that X has not enabled yet.
+- Disable background blur in the interface.
 - Independently choose the old, X default, or newer icon-based tab style for Home, profiles, Explore, and search details.
 - Tint the brand icon at the top of Home with the theme color, as old Twitter did, instead of rendering it in black or white.
 - Replace the 𝕏 logo with the Twitter bird.
@@ -92,6 +94,7 @@
 ### Navigation & layout
 
 - Freely show or hide Home, Explore, Grok, Notifications, and Chat in the bottom navigation bar.
+- Apply Material 3 colors to the bottom navigation bar, with an optional opaque background.
 - Set main and footer drawer items to follow X, always show where supported, or hide.
 - Customize the width of the drawer (side menu).
 - Add a Re:X settings entry to X's drawer.
@@ -113,11 +116,10 @@
 - Hide the paid Subscribe button.
 - Switch between the Android system photo picker and X's built-in post media picker.
 - Choose which Top, Latest, People, Media, and Lists tabs appear in search results.
-- Force the verified-users option to appear in advanced search filters.
 
 ### Posts, sharing & media
 
-- Download videos and GIFs from the media long-press menu or fullscreen viewer, with customizable filename templates.
+- Download videos and GIFs at the highest available quality from the media long-press menu or fullscreen viewer, with a custom download path and filename template.
 - Remove the “Ask Grok” and “Hide” items from the text selection menu.
 - Add system Share, Translate, Define, and Process Text actions to the text selection menu, each configurable as shown directly, collapsed, or hidden.
 - Replace share link domains with `twitter.com`, `fixupx.com`, `fxtwitter.com`, `xfixup.com`, or a custom domain.
@@ -148,8 +150,8 @@ It started simply because I couldn't stand that Premium users on iOS could custo
 | Root           | Required                                                                                    |
 | Framework      | A recent LSPosed build, or another compatible framework providing Modern Xposed API 101–102 |
 | Target package | X for Android — `com.twitter.android` (not X Lite)                                             |
-| Current target | The latest beta test branch version of main app                                                                |
-| Tested with    | X 12.15.1-release and newer versions                                                             |
+| Current target | The latest beta and prod branch versions whenever possible                                  |
+| Tested with    | See the changelog                                                                           |
 
 Re:X only targets the redesigned X interface introduced in 2026. The older pre-rewrite interface and legacy mode are not supported.
 
@@ -162,7 +164,7 @@ Re:X is adapted for specific X versions. After an X update, individual hooks may
 - **Updates, discussion, feedback & suggestions:** [Telegram group](https://t.me/re_x_mod)
 - **Developer:** [1Dot on GitHub](https://github.com/1-dot) · [Coolapk profile](https://www.coolapk.com/u/1414025)
 
-When reporting a compatibility issue, please include your Re:X version, X version, and the specific option that stopped working.
+When reporting a compatibility issue, please include your Re:X version, X version, and the specific option that stopped working. If hook errors are recorded, copy or share them from “Logs” on Re:X's home screen.
 
 ## Support Re:X
 
