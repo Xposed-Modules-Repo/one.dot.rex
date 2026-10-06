@@ -120,6 +120,8 @@
 ### Posts, sharing & media
 
 - Download videos and GIFs at the highest available quality from the media long-press menu or fullscreen viewer, with a custom download path and filename template.
+- Automatically convert and save GIFs as animated `.gif` files instead of the default .mp4, preserving source dimensions and frame timing.
+- Show download and conversion progress and completion notifications for GIF conversion; allow Re:X notifications when prompted to receive them.
 - Remove the “Ask Grok” and “Hide” items from the text selection menu.
 - Add system Share, Translate, Define, and Process Text actions to the text selection menu, each configurable as shown directly, collapsed, or hidden.
 - Replace share link domains with `twitter.com`, `fixupx.com`, `fxtwitter.com`, `xfixup.com`, or a custom domain.
