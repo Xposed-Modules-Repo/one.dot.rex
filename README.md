@@ -73,6 +73,7 @@
 
 - Use a Material 3 dynamic palette with system colors or a custom seed, with Soft Accent and Material semantic color modes.
 - Replace X's default brand blue with a custom color when the dynamic palette is disabled.
+- Apply Material 3 colors to the bottom navigation bar, with an optional opaque background.
 - Make the standard Premium blue check follow the primary or tertiary theme color.
 - Configure separate splash screen color combinations for light and dark mode.
 - Hide the compose FAB.
@@ -94,7 +95,6 @@
 ### Navigation & layout
 
 - Freely show or hide Home, Explore, Grok, Notifications, and Chat in the bottom navigation bar.
-- Apply Material 3 colors to the bottom navigation bar, with an optional opaque background.
 - Set main and footer drawer items to follow X, always show where supported, or hide.
 - Customize the width of the drawer (side menu).
 - Add a Re:X settings entry to X's drawer.
