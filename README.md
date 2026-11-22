@@ -73,16 +73,17 @@
 
 - Use a Material 3 dynamic palette with system colors or a custom seed, with Soft Accent and Material semantic color modes.
 - Replace X's default brand blue with a custom color when the dynamic palette is disabled.
-- Apply Material 3 colors to the bottom navigation bar, with an optional opaque background.
+- Apply Material 3 colors to the bottom navigation bar, with optional text labels, an opaque background, and a customizable English Notifications label.
+- Toggle the experimental floating navigation bar.
 - Make the standard Premium blue check follow the primary or tertiary theme color.
-- Configure separate splash screen color combinations for light and dark mode.
+- Set separate splash screen colors for light and dark mode, with full support for the zoom-in animation for both the original 𝕏 logo and the Twitter bird.
 - Hide the compose FAB.
 - Replace the circular compose FAB with a Material 3 rounded rectangle and choose from different Material color schemes.
 - Choose between X's default in-app floating notification, the old wide solid-color UI, or the newer compact UI with a blurred background that X has not enabled yet.
 - Disable background blur in the interface.
 - Independently choose the old, X default, or newer icon-based tab style for Home, profiles, Explore, and search details.
 - Tint the brand icon at the top of Home with the theme color, as old Twitter did, instead of rendering it in black or white.
-- Replace the 𝕏 logo with the Twitter bird.
+- Replace the 𝕏 logo with the Twitter bird, including a custom wing-flap animation for the Home pull-to-refresh indicator.
 - Replace the Home navigation icon with the birdhouse icon.
 - Replace the post FAB button icon with the quill icon.
 - Use the system font instead of Chirp.
@@ -91,12 +92,13 @@
 - Enable or disable a horizontal carousel for multi-image posts.
 - Choose a predictive back style.
 - Enable larger avatars in the timeline.
+- Toggle X's redesigned Settings screen and new account switcher. On supported X beta builds, choose whether to use the new underlay sidebar.
+- Customize the sidebar width under Appearance.
 
 ### Navigation & layout
 
 - Freely show or hide Home, Explore, Grok, Notifications, and Chat in the bottom navigation bar.
-- Set main and footer drawer items to follow X, always show where supported, or hide.
-- Customize the width of the drawer (side menu).
+- Set main and footer sidebar items to follow X, always show where supported, or hide.
 - Add a Re:X settings entry to X's drawer.
 
 ### Timeline, search & profiles
@@ -108,6 +110,8 @@
 - Prevent the Home timeline from refreshing automatically when the app starts or tab is switched.
 - Remember and restore the last tab when the app starts.
 - Remember and restore the last scroll position in the timeline when the app starts.
+- Prevent post links from opening inline in the Home timeline.
+- Use Profile Disguise to change how your own display name, handle, and avatar appear locally on this device.
 - Set profile media tabs to a single Media tab, separate Photos and Videos tabs, or a combined tab that opens to a chosen media type by default.
 - Remove the standalone Reposts tab and return reposts to the Posts tab.
 - Split Posts and Highlights.
@@ -125,6 +129,7 @@
 - Remove the “Ask Grok” and “Hide” items from the text selection menu.
 - Add system Share, Translate, Define, and Process Text actions to the text selection menu, each configurable as shown directly, collapsed, or hidden.
 - Replace share link domains with `twitter.com`, `fixupx.com`, `fxtwitter.com`, `xfixup.com`, or a custom domain.
+- Remove tracking parameters from shared links.
 - Hide the Grok button on post cards.
 - Hide the Grok item in the image long-press menu.
 - Hide the Grok button in the post detail toolbar.
@@ -135,7 +140,8 @@
 
 ### Other features
 
-- Browse and override Boolean Feature Switches collected from the currently supported X version, or add custom keys.
+- Browse and override Boolean Feature Switches in the built-in catalog, which is periodically refreshed from supported X versions, or add custom keys.
+- View per-hook installation timings in Logs from the Re:X home screen.
 - Back up and restore settings.
 
 ## Where does the “Re” come in?
